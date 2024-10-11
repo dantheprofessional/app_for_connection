@@ -2,9 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Welcome to My Flask App</title>
+    <title>Search Restaurants</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1>Search for Restaurants Near You</h1>
+    <form action="/search" method="post">
+      <input type="text" name="query" placeholder="Enter restaurant or cuisine">
+      <button type="submit">Search</button>
+    </form>
+        
   </body>
 </html>
